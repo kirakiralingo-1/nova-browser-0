@@ -1,0 +1,11 @@
+{
+  "postCreateCommand": "pnpm install --dangerously-allow-all-builds",
+  "postAttachCommand": "pnpm start",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    }
+  }
+}
